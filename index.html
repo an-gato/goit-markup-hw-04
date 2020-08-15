@@ -30,8 +30,15 @@
         </ul>
       </nav>
       <div class="contacts-link">
-        <a class="contact-item" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a class="contact-item" href="tel:+380961111111">+380961111111</a>
+        <a class="contact-item" href="mailto:info@devstudio.com">
+          <svg class="mail-icon" width="16" height="12">
+            <use xlink:href="./img/sprites.svg#icon-mail"></use>
+          </svg> info@devstudio.com
+        </a>
+        <a class="contact-item" href="tel:+380961111111">
+          <svg class="mail-icon" width="10" height="16">
+            <use xlink:href="./img/sprites.svg#icon-tel"></use>
+          </svg>+380961111111</a>
       </div>
     </div>
   </header>
@@ -113,29 +120,31 @@
             <h3 class="head-name">Игорь Демьяненко</h3>
             <p class="team-text">Product Designer</p>
             <ul class="link">
-              <li>
-                <a href="instagram.com" target="_blank" rel="noopener noreferrer" aria-label="instagram.com">
+              <li class="team-link">
+                <a href="instagram.com" class="icon-link" target="_blank" rel="noopener noreferrer"
+                  aria-label="instagram.com">
                   <svg class="social-icon">
                     <use xlink:href="./img/sprites.svg#icon-instagram"></use>
                   </svg>
                 </a>
               </li>
-              <li>
-                <a href="twitter.com" target="_blank" rel="noopener noreferrer" aria-label="twitter.com">
+              <li class="team-link">
+                <a href="twitter.com" class="icon-link" target="_blank" rel="noopener noreferrer"
+                  aria-label="twitter.com">
                   <svg class="social-icon">
                     <use xlink:href="./img/sprites.svg#icon-twitter"></use>
                   </svg>
                 </a>
               </li>
-              <li>
-                <a href="facebook.com" target="_blank" aria-label="facebook.com">
+              <li class="team-link">
+                <a href="facebook.com" class="icon-link" target="_blank" aria-label="facebook.com">
                   <svg class="social-icon">
                     <use xlink:href="./img/sprites.svg#icon-facebook"></use>
                   </svg>
                 </a>
               </li>
-              <li>
-                <a href="linkedin.com" target="_blank" aria-label="linkedin.com">
+              <li class="team-link">
+                <a href="linkedin.com" class="icon-link" target="_blank" aria-label="linkedin.com">
                   <svg class="social-icon">
                     <use xlink:href="./img/sprites.svg#icon-linkedin"></use>
                   </svg>
@@ -147,76 +156,6 @@
             <img class="team-pic" src="./team/2.jpg" width="270" height="260" alt="">
             <h3 class="head-name">Ольга Репина</h3>
             <p class="team-text">Frontend Developer</p>
-            <ul class="link">
-              <li>
-                <a href="instagram.com" target="_blank" rel="noopener noreferrer" aria-label="instagram.com">
-                  <svg class="social-icon">
-                    <use xlink:href="./img/sprites.svg#icon-instagram"></use>
-                  </svg>
-                </a>
-              </li>
-              <li>
-                <a href="twitter.com" target="_blank" rel="noopener noreferrer" aria-label="twitter.com">
-                  <svg class="social-icon">
-                    <use xlink:href="./img/sprites.svg#icon-twitter"></use>
-                  </svg>
-                </a>
-              </li>
-              <li>
-                <a href="facebook.com" target="_blank" aria-label="facebook.com">
-                  <svg class="social-icon">
-                    <use xlink:href="./img/sprites.svg#icon-facebook"></use>
-                  </svg>
-                </a>
-              </li>
-              <li>
-                <a href="linkedin.com" target="_blank" aria-label="linkedin.com">
-                  <svg class="social-icon">
-                    <use xlink:href="./img/sprites.svg#icon-linkedin"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li class="team-list">
-            <img class="team-pic" src="./team/3.jpg" width="270" height="260" alt="">
-            <h3 class="head-name">Николай Тарасов</h3>
-            <p class="team-text">Marketing</p>
-            <ul class="link">
-              <li>
-                <a href="instagram.com" target="_blank" rel="noopener noreferrer" aria-label="instagram.com">
-                  <svg class="social-icon">
-                    <use xlink:href="./img/sprites.svg#icon-instagram"></use>
-                  </svg>
-                </a>
-              </li>
-              <li>
-                <a href="twitter.com" target="_blank" rel="noopener noreferrer" aria-label="twitter.com">
-                  <svg class="social-icon">
-                    <use xlink:href="./img/sprites.svg#icon-twitter"></use>
-                  </svg>
-                </a>
-              </li>
-              <li>
-                <a href="facebook.com" target="_blank" aria-label="facebook.com">
-                  <svg class="social-icon">
-                    <use xlink:href="./img/sprites.svg#icon-facebook"></use>
-                  </svg>
-                </a>
-              </li>
-              <li>
-                <a href="linkedin.com" target="_blank" aria-label="linkedin.com">
-                  <svg class="social-icon">
-                    <use xlink:href="./img/sprites.svg#icon-linkedin"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li class="team-list">
-            <img class="team-pic" src="./team/4.jpg" width="270" height="260" alt="">
-            <h3 class="head-name">Михаил Ермаков</h3>
-            <p class="team-text">UI Designer</p>
             <ul class="link">
               <li class="team-link">
                 <a href="instagram.com" class="icon-link" target="_blank" rel="noopener noreferrer"
@@ -250,6 +189,81 @@
               </li>
             </ul>
           </li>
+          <li class="team-list">
+            <img class="team-pic" src="./team/3.jpg" width="270" height="260" alt="">
+            <h3 class="head-name">Николай Тарасов</h3>
+            <p class="team-text">Marketing</p>
+            <ul class="link">
+              <li class="team-link">
+                <a href="instagram.com" class="icon-link" target="_blank" rel="noopener noreferrer"
+                  aria-label="instagram.com">
+                  <svg class="social-icon">
+                    <use xlink:href="./img/sprites.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-link">
+                <a href="twitter.com" class="icon-link" target="_blank" rel="noopener noreferrer"
+                  aria-label="twitter.com">
+                  <svg class="social-icon">
+                    <use xlink:href="./img/sprites.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-link">
+                <a href="facebook.com" class="icon-link" target="_blank" aria-label="facebook.com">
+                  <svg class="social-icon">
+                    <use xlink:href="./img/sprites.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-link">
+                <a href="linkedin.com" class="icon-link" target="_blank" aria-label="linkedin.com">
+                  <svg class="social-icon">
+                    <use xlink:href="./img/sprites.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="team-list">
+            <img class="team-pic" src="./team/4.jpg" width="270" height="260" alt="">
+            <h3 class="head-name">Михаил Ермаков</h3>
+            <p class="team-text">UI Designer</p>
+            <ul class="link">
+              <li class="team-link">
+                <a href="instagram.com" class="icon-link" target="_blank" rel="noopener noreferrer"
+                  aria-label="instagram.com">
+                  <svg class="social-icon">
+                    <use xlink:href="./img/sprites.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-link">
+                <a href="twitter.com" class="icon-link" target="_blank" rel="noopener noreferrer"
+                  aria-label="twitter.com">
+                  <svg class="social-icon">
+                    <use xlink:href="./img/sprites.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-link">
+                <a href="facebook.com" class="icon-link" target="_blank" rel="noopener noreferrer"
+                  aria-label="facebook.com">
+                  <svg class="social-icon">
+                    <use xlink:href="./img/sprites.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-link">
+                <a href="linkedin.com" class="icon-link" target="_blank" aria-label="linkedin.com">
+                  <svg class="social-icon">
+                    <use xlink:href="./img/sprites.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </li>
         </ul>
       </div>
     </section>
@@ -259,22 +273,60 @@
         <h2 class="client-head">Постоянные клиенты</h2>
         <ul class="client-main">
           <li class="client-item">
-            <a href="" aria-label="ссылка на YA&CO">YA&CO company</a>
+            <a href="#" class="client-menu" target="_blank" rel="noopener noreferrer" aria-label="ссылка на YA&CO" YA&CO
+              company>
+              <svg class="client-link" width="45" height="50">
+                <use xlink:href="./img/sprites.svg#icon-logo1"></use>
+              </svg>
+            </a>
           </li>
           <li class="client-item">
-            <a href="" aria-label="ссылка на Tagline here company">Tagline here company</a>
+            <a href="#" class="client-menu" target="_blank" rel="noopener noreferrer"
+              aria-label="ссылка на Tagline here company">
+              <Tagline here company>
+                <svg class="client-link" width="40" height="52">
+                  <use xlink:href="./img/sprites.svg#icon-logo2"></use>
+                </svg>
+            </a>
+            </a>
           </li>
           <li class="client-item">
-            <a href="" aria-label="ссылка на Company">Company</a>
+            <a href="#" class="client-menu" target="_blank" rel="noopener noreferrer" aria-label="ссылка на Company">
+              <Company>
+                <svg class="client-link" width="41" height="43">
+                  <use xlink:href="./img/sprites.svg#icon-logo3"></use>
+                </svg>
+            </a>
+            </a>
           </li>
           <li class="client-item">
-            <a href="" aria-label="ссылка на Foster Peters">Foster Peters</a>
+            <a href="#" class="client-menu" target="_blank" rel="noopener noreferrer"
+              aria-label="ссылка на Foster Peters">
+              <Foster Peters>
+                <svg class="client-link" width="80" height="42">
+                  <use xlink:href="./img/sprites.svg#icon-logo4"></use>
+                </svg>
+            </a>
+            </a>
           </li>
           <li class="client-item">
-            <a href="" aria-label="ссылка на Brand">Brand</a>
+            <a href="#" class="client-menu" target="_blank" rel="noopener noreferrer" aria-label="ссылка на Brand">
+              <Brand>
+                <svg class="client-link" width="59" height="47">
+                  <use xlink:href="./img/sprites.svg#icon-logo5"></use>
+                </svg>
+            </a>
+            </a>
           </li>
           <li class="client-item">
-            <a href="" aria-label="ссылка на Tagline Company">Tagline Company</a>
+            <a href="#" class="client-menu" target="_blank" rel="noopener noreferrer"
+              aria-label="ссылка на Tagline Company">
+              <Tagline Company>
+                <svg class="client-link" width="89" height="46">
+                  <use xlink:href="./img/sprites.svg#icon-logo6"></use>
+                </svg>
+            </a>
+            </a>
           </li>
         </ul>
       </div>
@@ -301,17 +353,32 @@
         <b class="join-head flexbox">Присоединяйтесь</b>
         <ul class="info-link">
           <li class="link-footer">
-            <a href="http://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="instagram link"
-              class=""><img src="#" alt="Инстаграм" width="20" height="20" class=""></a>
+            <a href="http://www.instagram.com" class="icon-footer" target="_blank" aria-label="instagram link">
+              <svg class="social-footer" width="20" height="20">
+                <use xlink:href="./img/sprites.svg#icon-instagram-footer"></use>
+              </svg>
+            </a>
           </li>
           <li class="link-footer">
-            <a href="http://www.twitter.com" target="_blank" rel="noopener noreferrer" aria-label="twitter link"></a>
+            <a href="http://www.twitter.com" class="icon-footer" target="_blank" aria-label="twitter link">
+              <svg class="social-footer" width="20" height="20">
+                <use xlink:href="./img/sprites.svg#icon-twitter-footer"></use>
+              </svg>
+            </a>
           </li>
           <li class="link-footer">
-            <a href="http://www.facebook.com" aria-label="facebook link"></a>
+            <a href="http://www.facebook.com" class="icon-footer" target="_blank" aria-label="facebook link">
+              <svg class="social-footer" width="20" height="20">
+                <use xlink:href="./img/sprites.svg#icon-facebook-footer"></use>
+              </svg>
+            </a>
           </li>
           <li class="link-footer">
-            <a href="http://www.linkedin.com" aria-label="linkedin link"></a>
+            <a href="http://www.linkedin.com" class="icon-footer" target="_blank" aria-label="linkedin link">
+              <svg class="social-footer" width="20" height="20">
+                <use xlink:href="./img/sprites.svg#icon-linkedin-footer"></use>
+              </svg>
+            </a>
           </li>
         </ul>
       </div>

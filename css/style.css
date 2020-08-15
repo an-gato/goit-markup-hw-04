@@ -80,6 +80,15 @@ font-family: 'Raleway', sans-serif;*/
     margin-right: 50px;
   }
 
+  .mail-icon {
+    display: inline-flex;
+    margin-right: 10px;
+  }
+
+  .contact-item:hover {
+    fill: #2196F3;
+  }
+
   .flexbox {
     display: flex;
     justify-content: flex-end;
@@ -95,12 +104,13 @@ font-family: 'Raleway', sans-serif;*/
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #757575;
+    fill: #757575;
     text-decoration: none;
+    cursor: pointer;
     
   }
 
-  .contact-item:hover,
-  .contact-item:focus {
+  .contact-item:hover {
     color: #2196F3;
   }
 
@@ -165,6 +175,8 @@ font-family: 'Raleway', sans-serif;*/
     border-radius: 4px;
     text-decoration: none;
     padding: 10px 32px;
+    overflow: hidden;
+
   }
 
   
@@ -307,7 +319,7 @@ font-family: 'Raleway', sans-serif;*/
     display: flex;
     list-style-type: none;
     justify-content: center;
-
+    padding-bottom: 30px;
   }
 
   .team-link:not(:last-child) {
@@ -386,13 +398,39 @@ margin-right: 30px;
 }
 
 .client-item {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   border: 1px solid #AFB1B8;
 box-sizing: border-box;
 border-radius: 4px;
 width: calc((100% - 30px * 5) /6);
 width: 170px;
 height: 90px;
+cursor: pointer;
 }
+
+.client-item:hover {
+  border: 2px solid #2196F3;
+}
+
+.client-menu {
+  fill: #AFB1B8;
+}
+
+
+.client-link {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.client-menu:hover {
+fill: #2196F3;
+}
+
+
 
 .client-main {
     list-style: none;
@@ -408,6 +446,9 @@ height: 90px;
 
 .info-link {
   display: flex;
+    list-style-type: none;
+    justify-content: center;
+  list-style-type: none;
 
 }
 
@@ -415,6 +456,30 @@ height: 90px;
 .logo-footer {
   margin-right: 70px;
   
+}
+
+.icon-footer {
+  display: inline-flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.social-footer {
+  display: inline-flex;
+  justify-content: center;
+  margin: auto;
+  
+}
+
+.icon-footer:hover {
+  background: #2196F3;
+}
+
+.icon-footer:not(:last-child) {
+  margin-right: 10px;
 }
 
 .mail,
@@ -464,6 +529,9 @@ height: 90px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
+    padding-bottom: 20px;
+    display: block;
+    
 }
 
 .footer-flexbox {
@@ -547,6 +615,11 @@ height: 90px;
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
+    
+}
+
+.portfolio-menu:hover {
+  box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
 }
 
 .portfolio-menu { 
@@ -555,6 +628,7 @@ height: 90px;
   margin-bottom: 30px;
   background-color: white;
   list-style-type: none;
+  cursor: pointer;
 
     
 }
