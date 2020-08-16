@@ -142,7 +142,7 @@ font-family: 'Raleway', sans-serif;*/
   }
 
   .title {
-    min-width: 1600px;
+    width: 1600px;
     height: 600px;
     margin-right: auto;
     margin-left: auto;
@@ -201,6 +201,7 @@ font-family: 'Raleway', sans-serif;*/
   }
 
   .image {
+    display: flex;
     background: #F5F4FA;
   border-radius: 4px;
   width: 270px;
@@ -209,12 +210,17 @@ font-family: 'Raleway', sans-serif;*/
   }
 
   .img-list {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 103px;
-    padding-right: 103px;
-    display: flex;
-    width: auto;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .list-icon {
+    display: block;
+    justify-content: center;
+    margin: auto;
+
   }
 
   .list-item:not(:last-child) {
