@@ -142,8 +142,6 @@ font-family: 'Raleway', sans-serif;*/
   }
 
   .title {
-    width: 1600px;
-    height: 600px;
     margin-right: auto;
     margin-left: auto;
     outline: 1px solid black;
@@ -289,8 +287,6 @@ font-family: 'Raleway', sans-serif;*/
 
   .team {
     background: #F5F4FA;
-    width: 1600px;
-    height: 708px;
     padding: 94px;
   }
 
@@ -349,6 +345,7 @@ font-family: 'Raleway', sans-serif;*/
   
   .icon-link:hover {
     background: #2196F3;
+    fill: #FFFFFF;
   }
 
   .social-icon:hover {
@@ -411,17 +408,14 @@ margin-right: 30px;
 box-sizing: border-box;
 border-radius: 4px;
 width: calc((100% - 30px * 5) /6);
-width: 170px;
 height: 90px;
 cursor: pointer;
+fill: #AFB1B8;
 }
 
 .client-item:hover {
   border: 2px solid #2196F3;
-}
-
-.client-menu {
-  fill: #AFB1B8;
+  fill: #2196F3;
 }
 
 
@@ -429,13 +423,7 @@ cursor: pointer;
   display: block;
   margin-left: auto;
   margin-right: auto;
-
 }
-
-.client-menu:hover {
-fill: #2196F3;
-}
-
 
 
 .client-main {
